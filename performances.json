@@ -1,0 +1,7 @@
+{
+    "performances": [
+        { "date": "2024-12-20", "venue": "The Poetry Lounge" },
+        { "date": "2025-01-05", "venue": "The Creative Collective" },
+        { "date": "2025-01-18", "venue": "Art & Words Festival" }
+    ]
+}

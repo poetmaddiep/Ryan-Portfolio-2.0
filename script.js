@@ -1,5 +1,5 @@
 // Gallery Navigation
-const images = ['images/ryan1.jpg', 'images/ryan2.jpg', 'images/ryan3.jpg'];
+const images = ['ryan-performance.jpg', 'images/ryan2.jpg', 'images/ryan3.jpg'];
 let currentImageIndex = 0;
 
 document.getElementById('prev-btn').addEventListener('click', () => {

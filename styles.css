@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f4b7c;
+    color: white;
+}
+
+header {
+    background: url('images/navbar_bg.jpg') center/cover;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+#site-title {
+    font-family: 'Impact', sans-serif;
+    text-transform: uppercase;
+    color: #ffd700;
+    margin: 0;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#performances {
+    background-color: #003f5c;
+}
+
+#performance-list {
+    list-style: none;
+    padding: 0;
+}
+
+#performance-list li {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+/* Poetry Tiles */
+.poetry-tiles {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.poetry-tile {
+    background: url('images/poetry_bg.jpg') center/cover;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.poetry-tile:hover {
+    transform: scale(1.1);
+}
+
+/* Gallery Section */
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #003f5c;
+    color: white;
+}

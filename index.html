@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Rutkoskie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Impact&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="navbar">
+            <h1 id="site-title">Ryan Rutkoskie</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#poetry">Poetry</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#performances">Performances</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Ryan</h2>
+        <p>Ryan is a poet, performer, and creative visionary. Inspired by Sylvia Plath and the works of Francis Bacon, he crafts poetry that is both raw and colorful. His work reflects a blend of wit, emotion, and striking imagery.</p>
+    </section>
+
+    <!-- Poetry Section -->
+    <section id="poetry">
+        <h2>Feautured Performances</h2>
+        <div class="poetry-tiles">
+            <div class="poetry-tile" data-poem="poem1">Poem 1</div>
+            <div class="poetry-tile" data-poem="poem2">Poem 2</div>
+            <div class="poetry-tile" data-poem="poem3">Poem 3</div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img id="gallery-image" src="images/ryan1.jpg" alt="Gallery Image">
+            <button id="prev-btn">◀</button>
+            <button id="next-btn">▶</button>
+        </div>
+    </section>
+
+    <!-- Performances Section -->
+    <section id="performances">
+        <h2>Upcoming Performances</h2>
+        <ul id="performance-list"></ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ryan's Poetry. Follow him on <a href="https://instagram.com" target="_blank">Instagram</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
